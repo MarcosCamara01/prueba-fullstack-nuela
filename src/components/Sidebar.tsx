@@ -37,7 +37,7 @@ const Sidebar = () => {
                 <ul className='flex flex-col gap-1'>
                     {menuItems.map((item, index) => (
                         <li key={index} className={`cursor-pointer py-1.5 px-3 rounded-lg transition-all hover:bg-[#F6F6F6] ${index === 0 && "bg-[#F6F6F6]"}`}>
-                            <div className="flex gap-3 items-center">
+                            <div className="flex gap-3 items-center h-6">
                                 <Image
                                     alt={item.text}
                                     width={16}

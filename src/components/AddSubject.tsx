@@ -21,13 +21,13 @@ export function AddSubject() {
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <button className="bg-[#635BFF] flex gap-2 py-[10px] px-4 text-white items-center rounded-lg text-sm">
+                <button className="bg-[#635BFF] flex gap-2 py-[10px] px-4 text-white items-center rounded-lg text-sm transition-all hover:bg-[#4e47e3]">
                     <Image
                         alt="Plus"
-                        width={20}
-                        height={20}
+                        width={16}
+                        height={16}
                         src="/plus.svg"
-                        className="w-5 h-5"
+                        className="w-4 h-4"
                     />
                     Añadir Asignatura
                 </button>
@@ -148,7 +148,7 @@ export function AddSubject() {
                     </div>
                 </div>
                 <DialogFooter>
-                    <DialogClose className="bg-[#635BFF] rounded-lg py-3.5 px-5 text-sm text-white font-medium">
+                    <DialogClose className="bg-[#635BFF] rounded-lg py-3.5 px-5 text-sm text-white font-medium transition-all hover:bg-[#4e47e3]">
                         Añadir asignatura
                     </DialogClose>
                 </DialogFooter>

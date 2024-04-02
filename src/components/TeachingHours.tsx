@@ -15,6 +15,7 @@ import {
 
 const subjects = [
     {
+        id: crypto.randomUUID(),
         name: "Matemáticas",
         type: "Obligatoria",
         course: "1º Bachillerato",
@@ -23,6 +24,7 @@ const subjects = [
         regularSpace: "1º Bach - Grupo B"
     },
     {
+        id: crypto.randomUUID(),
         name: "Matemáticas",
         type: "Obligatoria",
         course: "2º Bachillerato",
@@ -31,6 +33,7 @@ const subjects = [
         regularSpace: "2º Bach - Grupo C"
     },
     {
+        id: crypto.randomUUID(),
         name: "Física y Química",
         type: "Obligatoria",
         course: "1º Bachillerato",
@@ -39,6 +42,7 @@ const subjects = [
         regularSpace: "1º Bach - Grupo B"
     },
     {
+        id: crypto.randomUUID(),
         name: "Francés",
         type: "Optativa",
         course: "4º ESO",
@@ -65,7 +69,7 @@ export function TeachingHours() {
                 </TableHeader>
                 <TableBody>
                     {subjects.map((subject) => (
-                        <TableRow key={subject.name} className="bg-white text-[#5E5E5E]">
+                        <TableRow key={subject.id} className="bg-white text-[#5E5E5E]">
                             <TableCell>{subject.name}</TableCell>
                             <TableCell>{subject.type}</TableCell>
                             <TableCell>{subject.course}</TableCell>
