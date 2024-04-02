@@ -32,7 +32,7 @@ export function HourTabs() {
                 <div className="grid md:grid-cols-3 gap-6">
                     <div className="bg-white rounded-[20px] p-4 h-[105px] flex flex-col justify-between">
                         <h3 className="text-sm font-medium text-[#454C52]">Horas totales</h3>
-                        <span className="text-3xl font-bold	text-[#111111]">420 horas</span>
+                        <span className="text-3xl font-bold	text-[#111111]">440 horas</span>
                     </div>
                     <div className="bg-white rounded-[20px] p-4 h-[105px] flex flex-col justify-between">
                         <h3 className="text-sm font-medium text-[#454C52]">Horas lectivas</h3>

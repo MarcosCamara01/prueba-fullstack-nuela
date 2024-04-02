@@ -15,7 +15,7 @@ const Sidebar = () => {
 
     return (
         <div className="min-h-screen min-w-[256px] bg-white">
-            <nav className="py-8 px-4 flex flex-col gap-10">
+            <nav className="py-8 px-4 flex flex-col gap-10 sticky top-0">
                 <div className="flex items-center justify-between h-[36px] rounded-lg py-1 px-2">
                     <div className='p-1 rounded-lg flex gap-2 items-center'>
                         <Image
